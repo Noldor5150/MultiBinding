@@ -47,7 +47,7 @@ namespace MultiBinding
         
         
 
-        #region INotifyPropertyChanged Members
+        
 
         public event PropertyChangedEventHandler PropertyChanged;
         public void OnPropertyChanged(string txt)
@@ -59,6 +59,6 @@ namespace MultiBinding
                 handle(this, new PropertyChangedEventArgs(txt));
             }
         }
-        #endregion
+        
     }
 }

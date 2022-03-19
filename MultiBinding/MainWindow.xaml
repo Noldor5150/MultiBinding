@@ -6,7 +6,7 @@
         Title="MainWindow" Height="350" Width="525">
     <Window.Resources>
         <ResourceDictionary>
-            <converter:TotalConverter x:Key="Totalconverter"></converter:TotalConverter>
+            <converter:TotalConverter x:Key="Totalconverter"/>
         </ResourceDictionary>
     </Window.Resources>
     <Grid>
